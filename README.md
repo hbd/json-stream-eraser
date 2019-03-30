@@ -8,5 +8,7 @@ Encode input from stdin as json; erased words from the streamed input.
 
 or
 
-`go get github.com/hbd/json-strea-eraser`
-`echo '{ "my":"input" }' | json-stream-eraser`
+``` bash
+go get github.com/hbd/json-strea-eraser
+echo '{ "my":"input" }' | json-stream-eraser
+```
